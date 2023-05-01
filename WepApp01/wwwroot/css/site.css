@@ -163,10 +163,9 @@ input[type="submit"] {
     align-items: center;
 }
 .bathDivSingle {
-    width: 80%;
-    padding: 20px;
+    padding: 40px;
 }
 .bathImg {
-    width: 400px;
+    width: 600px;
 }
 
