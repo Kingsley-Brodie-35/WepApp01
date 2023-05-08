@@ -4,79 +4,147 @@
     Layout = null;
 }
 
-<div class="bathDivMain">
-    <h1>Ultimate Tiles Bath Range</h1>
-    <div class="bathDivSingle">
-        <h3>Hampton Clawfoot</h3>
-        <img src="~/images/Hampton.jpg" class="bathImg" />
-        <p>Size: 1600x700x750mm</p>
-        <p>Price: $750</p>
+<div class="bathDivMain" id="bathDivMain">
+    <img src="~/images/logo.png"/>
+    <h1>Bathware Range</h1>
+    <p for="select">Choose a bathware range</p>
+    <select id="select" onchange="Range()">
+        <option value="Baths">Baths</option>
+        <option value="Toilets">Toilets</option>
+    </select>
+    <div id="bathDiv">
+        <div class="bathDivSingle">
+            <h3>Hampton Clawfoot</h3>
+            <img src="~/images/Hampton.jpg" class="bathImg" />
+            <p>Size: 1600x700x750mm</p>
+            <p>Price: $750</p>
+        </div>
+        <div class="bathDivSingle">
+            <h3>Evie Free Standing</h3>
+            <img src="~/images/Evie.jpg" class="bathImg" />
+            <p>Size: 1500x750x700mm</p>
+            <p>Price: $1095</p>
+            <p>Size: 1700x800x720mm</p>
+            <p>Price: $1175</p>
+        </div>
+        <div class="bathDivSingle">
+            <h3>Kylie Left Hand Back To Wall</h3>
+            <img src="~/images/KylieL.jpg" class="bathImg" />
+            <p>Size: 1500x750x580mm</p>
+            <p>Price: $1095</p>
+            <p>Size: 1700x800x580mm</p>
+            <p>Price: $1175</p>
+        </div>
+        <div class="bathDivSingle">
+            <h3>Kylie Right Hand Back To Wall</h3>
+            <img src="~/images/Kylie.jpg" class="bathImg" />
+            <p>Size: 1500x750x580mm</p>
+            <p>Price: $1095</p>
+            <p>Size: 1700x800x580mm</p>
+            <p>Price: $1175</p>
+        </div>
+        <div class="bathDivSingle">
+            <h3>Simone Free Standing</h3>
+            <img src="~/images/Simone.jpg" class="bathImg" />
+            <p>Size: 1500x750x580mm</p>
+            <p>Price: $1095</p>
+        </div>
+        <div class="bathDivSingle">
+            <h3>Joanne Free Standing</h3>
+            <img src="~/images/Joanne.jpg" class="bathImg" />
+            <p>Size: 1500x750x580mm</p>
+            <p>Price: $1095</p>
+            <p>Size: 1700x750x580mm</p>
+            <p>Price: $1175</p>
+        </div>
+        <div class="bathDivSingle">
+            <h3>Harvey Back To Wall</h3>
+            <img src="~/images/Harvey.jpg" class="bathImg" />
+            <p>Size: 1500x750x580mm</p>
+            <p>Price: $1095</p>
+            <p>Size: 1700x800x580mm</p>
+            <p>Price: $1175</p>
+        </div>
+        <div class="bathDivSingle">
+            <h3>Rounded Free Standing Matt White</h3>
+            <img src="~/images/BTA1500MW.jpg" class="bathImg" />
+            <p>Size: 1500x750x580mm</p>
+            <p>Price: $1650</p>
+            <p>Size: 1700x800x580mm</p>
+            <p>Price: $1750</p>
+        </div>
+        <div class="bathDivSingle">
+            <h3>Rounded Back To Wall Matt Black</h3>
+            <img src="~/images/BTE1500MB.jpg" class="bathImg" />
+            <p>Size: 1500x750x580mm</p>
+            <p>Price: $1850</p>
+            <p>Size: 1700x800x580mm</p>
+            <p>Price: $1950</p>
+        </div>
     </div>
-    <div class="bathDivSingle">
-        <h3>Evie Free Standing</h3>
-        <img src="~/images/Evie.jpg" class="bathImg" />
-        <p>Size: 1500x750x700mm</p>
-        <p>Price: $1095</p>
-        <p>Size: 1700x800x720mm</p>
-        <p>Price: $1175</p>
+    <div class="bathDivSingle hidden" id="toiletsDiv">
+        <div class="bathDivSingle">
+            <h3>Mezio</h3>
+            <img src="~/images/Mezio.png" class="bathImg" />
+            <p>Size: 680x390x840mm</p>
+            <p>S-trap: 75-190mm</p>
+            <p>P-trap: 180mm</p>
+            <p>Price: $495.00</p>
+        </div>
+        <div class="bathDivSingle">
+            <h3>Donna</h3>
+            <img src="~/images/Donna.png" class="bathImg" />
+            <p>Size: 620x375x810mm</p>
+            <p>S-trap: 75-195mm</p>
+            <p>P-trap: 180mm</p>
+            <p>Price: $495.00</p>
+        </div>
+        <div class="bathDivSingle">
+            <h3>Vera</h3>
+            <img src="~/images/Vera.png" class="bathImg" />
+            <p>Size: 665x370x840mm</p>
+            <p>S-trap: 75-180mm</p>
+            <p>P-trap: 180mm</p>
+            <p>Price: $495.00</p>
+        </div>
+        <div class="bathDivSingle">
+            <h3>Sandra</h3>
+            <img src="~/images/Sandra.png" class="bathImg" />
+            <p>Size: 610x360x850mm</p>
+            <p>S-trap: 75-190mm</p>
+            <p>P-trap: 180mm</p>
+            <p>Price: $485.00</p>
+        </div>
+        <div class="bathDivSingle">
+            <h3>Vera</h3>
+            <img src="~/images/Vera.png" class="bathImg" />
+            <p>Size: 665x370x840mm</p>
+            <p>S-trap: 75-180mm</p>
+            <p>P-trap: 180mm</p>
+            <p>Price: $495.00</p>
+        </div>
+        <div class="bathDivSingle">
+            <h3>Java</h3>
+            <img src="~/images/Java.png" class="bathImg" />
+            <p>Size: 560x360x410mm</p>
+            <p>S-trap: Universal</p>
+            <p>P-trap: Universal</p>
+            <p>Price: $815.00-850.00</p>
+        </div>
+        <div class="bathDivSingle">
+            <h3>Venus</h3>
+            <img src="~/images/venus.png" class="bathImg" />
+            <p>Size: 560X365X400mm</p>
+            <p>S-trap: 75-180mm</p>
+            <p>P-trap: 180mm</p>
+            <p>Price: $815.00-850.00</p>
+        </div>
     </div>
-    <div class="bathDivSingle">
-        <h3>Kylie Left Hand Back To Wall</h3>
-        <img src="~/images/KylieL.jpg" class="bathImg" />
-        <p>Size: 1500x750x580mm</p>
-        <p>Price: $1095</p>
-        <p>Size: 1700x800x580mm</p>
-        <p>Price: $1175</p>
-    </div>
-    <div class="bathDivSingle">
-        <h3>Kylie Right Hand Back To Wall</h3>
-        <img src="~/images/Kylie.jpg" class="bathImg" />
-        <p>Size: 1500x750x580mm</p>
-        <p>Price: $1095</p>
-        <p>Size: 1700x800x580mm</p>
-        <p>Price: $1175</p>
-    </div>
-    <div class="bathDivSingle">
-        <h3>Simone Free Standing</h3>
-        <img src="~/images/Simone.jpg" class="bathImg" />
-        <p>Size: 1500x750x580mm</p>
-        <p>Price: $1095</p>
-    </div>
-    <div class="bathDivSingle">
-        <h3>Joanne Free Standing</h3>
-        <img src="~/images/Joanne.jpg" class="bathImg" />
-        <p>Size: 1500x750x580mm</p>
-        <p>Price: $1095</p>
-        <p>Size: 1700x750x580mm</p>
-        <p>Price: $1175</p>
-    </div>
-    <div class="bathDivSingle">
-        <h3>Harvey Back To Wall</h3>
-        <img src="~/images/Harvey.jpg" class="bathImg" />
-        <p>Size: 1500x750x580mm</p>
-        <p>Price: $1095</p>
-        <p>Size: 1700x800x580mm</p>
-        <p>Price: $1175</p>
-    </div>
-    <div class="bathDivSingle">
-        <h3>Rounded Free Standing Matt White</h3>
-        <img src="~/images/BTA1500MW.jpg" class="bathImg" />
-        <p>Size: 1500x750x580mm</p>
-        <p>Price: $1650</p>
-        <p>Size: 1700x800x580mm</p>
-        <p>Price: $1750</p>
-    </div>
-    <div class="bathDivSingle">
-        <h3>Rounded Back To Wall Matt Black</h3>
-        <img src="~/images/BTE1500MB.jpg" class="bathImg"/>
-        <p>Size: 1500x750x580mm</p>
-        <p>Price: $1850</p>
-        <p>Size: 1700x800x580mm</p>
-        <p>Price: $1950</p>
-    </div>
+    
 
 </div>
 <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hind&family=Montserrat&display=swap" rel="stylesheet">
+<script src="~/js/baths.js" asp-append-version="true"></script>

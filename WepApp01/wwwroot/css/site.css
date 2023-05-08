@@ -1,6 +1,4 @@
-html {
-  font-size: 14px;
-}
+
 
 h1 {
     font-family: 'Oswald', sans-serif;
@@ -11,6 +9,32 @@ h3 {
 
 p {
     font-family: 'Open Sans', sans-serif;
+}
+
+.bathDivSingle h3 {
+    font-size: 36px;
+}
+
+.bathDivSingle p {
+    font-size: 18px;
+}
+.bathDivMain p {
+    font-size: 24px;
+}
+
+.bathDivMain h1 {
+    font-size: 48px;
+    width: 100%;
+    color: #55717f;
+}
+
+.bathDivSingle p {
+    text-align: left;
+}
+
+.bathDivMain {
+    background-color: #E2E2E2;
+    text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -167,5 +191,29 @@ input[type="submit"] {
 }
 .bathImg {
     width: 600px;
+    border-radius: 20px;
+}
+.hidden {
+    display: none;
+}
+select {
+    background-color: #f2f2f2;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 24px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
 }
 
+option {
+  
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 8px;
+    font-size: 16px;
+    width: 150px;
+    height: 100px;
+}
