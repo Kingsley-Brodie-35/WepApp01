@@ -1,5 +1,3 @@
-
-
 h1 {
     font-family: 'Oswald', sans-serif;
 }
@@ -11,25 +9,10 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
-.bathDivSingle h3 {
-    font-size: 36px;
-}
-
-.bathDivSingle p {
-    font-size: 18px;
-}
-.bathDivMain p {
-    font-size: 24px;
-}
-
 .bathDivMain h1 {
     font-size: 48px;
     width: 100%;
     color: #55717f;
-}
-
-.bathDivSingle p {
-    text-align: left;
 }
 
 .bathDivMain {
@@ -216,4 +199,17 @@ option {
     font-size: 16px;
     width: 150px;
     height: 100px;
+}
+
+.bathDivSingle h3 {
+    font-size: 36px;
+}
+
+.bathDivSingle p {
+    font-size: 24px;
+    text-align: left;
+}
+
+.bathDivMain p {
+    font-size: 24px;
 }
