@@ -213,9 +213,6 @@ option {
     font-size: 24px;
 }
 /* /Mosaics */
-.itemCode {
-    border: 2px solid grey;
-}
 .mosaicsMain {
     display: flex;
     flex-direction: column;
@@ -230,19 +227,24 @@ option {
     align-items: center;
     width: 100%;
 }
+.mosaicSearch {
+    width: 60%;
+    height: 200px;
+}
 .itemImg {
     width: 80%;
 }
 .itemCode {
-    font-size: 18px;
-    height: 50px;
+    font-size: 32px;
+    height: 60px;
+    border: 2px solid grey;
 }
 .mosaicBtn {
     height: 80px;
-    font-size: 18px;
+    font-size: 32px;
 }
 .mosaicLabel {
-    font-size: 18px;
+    font-size: 32px;
     font-family: 'Open Sans', sans-serif;
 }
 .hidden {
