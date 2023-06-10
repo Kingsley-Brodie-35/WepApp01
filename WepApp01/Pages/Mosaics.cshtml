@@ -1,0 +1,27 @@
+﻿@page
+@model UltimateTilesProj.Pages.MosaicsModel
+@{
+    Layout = null;
+}
+<div class="mosaicsMain">
+    <img src="~/images/logo.png" />
+    <h1>Pool Mosaics Image Gallery</h1>
+    <form class="mosaicSearch" onsubmit="displayMosaic(event)">
+        <p>
+            <label for="itemCode" id="mosaicLabel">Item Code</label>
+            <input type="text" id="itemCode" name="itemCode" class="itemCode"/>
+        </p>
+        <p><input type="submit" value="Submit" class="mosaicBtn"/></p>
+    </form>
+    <div class="imageDiv">
+        <h3 id="productCode"></h3>
+        <img id="itemImg" class="itemImg"/>
+    </div>
+</div>
+
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind&family=Montserrat&display=swap" rel="stylesheet">
+<script src="~/js/mosaics.js" asp-append-version="true"></script>

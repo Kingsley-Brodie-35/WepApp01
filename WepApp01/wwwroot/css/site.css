@@ -192,7 +192,6 @@ select {
 }
 
 option {
-  
     background-color: #f2f2f2;
     color: #333;
     padding: 8px;
@@ -212,4 +211,40 @@ option {
 
 .bathDivMain p {
     font-size: 24px;
+}
+/* /Mosaics */
+.itemCode {
+    border: 2px solid grey;
+}
+.mosaicsMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.imageDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.itemImg {
+    width: 80%;
+}
+.itemCode {
+    font-size: 18px;
+    height: 50px;
+}
+.mosaicBtn {
+    height: 80px;
+    font-size: 18px;
+}
+.mosaicLabel {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+.hidden {
+    display: none;
 }
