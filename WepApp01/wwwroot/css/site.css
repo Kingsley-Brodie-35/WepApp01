@@ -238,6 +238,8 @@ option {
     font-size: 32px;
     height: 60px;
     border: 2px solid grey;
+    padding: 5px;
+    margin: 5px;
 }
 .mosaicBtn {
     height: 80px;
