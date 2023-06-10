@@ -252,3 +252,6 @@ option {
 .hidden {
     display: none;
 }
+.mosaicText {
+    font-size: 26px;
+}
